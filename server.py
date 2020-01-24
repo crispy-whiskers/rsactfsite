@@ -1,6 +1,6 @@
 from flask import Flask
 from flask import render_template, request
-from what import What
+
 import os, random, selectors, sys
 from subprocess import Popen, PIPE
 import subprocess

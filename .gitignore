@@ -2,3 +2,4 @@ RsaCtfTool/
 .vscode
 testcmd.txt
 venv/
+.DS_Store

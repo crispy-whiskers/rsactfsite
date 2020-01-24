@@ -12,7 +12,7 @@ Download RsaCtfTool:
 
 Then, for dependencies of RsaCtfTool, install `mpfr` and `libmpc` as dependencies for the dependencies of this. (you might have to compile from source)
 
-Now you go and do this: `pip install -r "requirements.txt"` inside the RsaCtfTool folder.
+Create a python venv and do this: `pip install -r "requirements.txt"` inside the RsaCtfTool folder.
 
 
 # Testing

@@ -1,0 +1,51 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <title>lmao</title>
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <script>
+
+
+        function get() {
+            var n = $('#n').val()
+            var e = $('#e').val()
+            //console.log(n)
+            var ajax_params = {
+                'url': 'http://127.0.0.1:5000/req',
+                'type': "get",
+                'data': { n:n, e:e},
+                'success': (resp) => {
+                    //console.log(resp)
+                    $('#out').val(resp);
+                }
+            }
+
+            $.ajax(ajax_params)
+        }
+        
+    </script>
+    <h1>This is a proof of concept and not a fully developed website.</h1>
+    <p>i hate subprocess</p>
+    <p>hello from index.html</p>
+
+    <p>submit rsa stuff here</p>
+    <p>N</p>
+    <textarea id="n" rows="2" cols="100"></textarea>
+    <p>e</p>
+    <textarea id = "e" rows="1" cols = "50"></textarea>
+    <br>
+    <br>
+    <br>
+    <button onclick="get()">press to submit stuff</button>
+    <br>
+    <div>
+        <textarea id="out" rows="10" cols="100">Output here</textarea>
+    </div>
+</body>
+
+</html>

@@ -1,6 +1,7 @@
 # rsactfsite
+My final project for my 2021 Mobile/Web Application Development class.
 This is not a fully functional project.
-It *works* just not as much as I wanted it to.
+It *works*, just not as much as I wanted it to.
 
 # Instructions
 
